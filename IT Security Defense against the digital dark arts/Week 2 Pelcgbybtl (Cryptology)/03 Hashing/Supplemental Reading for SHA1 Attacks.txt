@@ -1,0 +1,7 @@
+Supplemental Reading for SHA1 Attacks
+During the 2000s, a bunch of theoretical attacks against SHA1 were formulated and some partial collisions were demonstrated. In early 2017, the first full collision of SHA1 was published.
+
+https://eprint.iacr.org/2005/010
+https://www.schneier.com/blog/archives/2005/02/sha1_broken.html
+https://eprint.iacr.org/2007/474
+https://shattered.io/

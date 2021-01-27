@@ -1,0 +1,16 @@
+Major DNS Cache Poisoning Attack Hits Brazilian ISPs
+
+There is a large-scale DNS cache-poisoning attack going on in Brazil at the moment, with potentially millions of users affected by a tactic that is forcing the to install a malicious Java applet before they can reach many popular sites, including Google, Gmail and Hotmail.
+
+Brazil DNSThere is a large-scale DNS cache-poisoning attack going on in Brazil at the moment, with potentially millions of users affected by a tactic that is forcing the to install a malicious Java applet before they can reach many popular sites, including Google, Gmail and Hotmail.
+The attack has been going on for some time already, researchers say, and the effects could be quite widespread, given the scope of the problem. Several large ISPs in the highly connected country have been affected by the attack, and police have made at least one arrest in connection with the operation. An analysis of the attack by Fabio Assolini, a Kaspersky Lab researcher in Brazil, shows that attackers have been able to poison the DNS cache records for several major Web sites at some large ISPs.
+
+So when users attempt to connect to a site such as Google through one of the affected ISPs, they are redirected to a site that insists they install a small Java applet in order to continue. That applet, of course, is malware. Specifically, it’s turned out to be a banker Trojan in most cases, which is far and away the weapon of choice for Brazilian attackers. The IP address being used to host the exploit includes a slew of other exploits as well, such as files that attempt to exploit vulnerabilities in older versions of Java, a comon tactic for drive-by downloads.
+
+“It asks the customer to download and install the so-called “Google Defence” software required to use the search engine. In reality, though, this file is a Trojan banker detected by Kaspersky’s heuristic engine. Research into this IP highlighted several malicious files and exploits hosted there,” Assolini wrote in his analysis of the cache poisoning attack. “In fact the file ad.html is an encrypted script, exploiting CVE-2010-4452 and running arbitrary code in an old installation of JRE. The exploit detected by us as Exploit.Java.CVE-2010-4452.a calls up one of the files in this list.”
+
+Assolini said that all of the infections seen in this specific attack have been in Brazil. He added that some enterprises in the country also had reported that their routers and internal networking devices had been compromised and the attackers had modified the DNS configurations in order to force users to malicious sites.
+
+DNS cache poisoning attacks have have been going on for a long time, both smaller, targeted attacks and more widespread ones against a large ISP. They were more prevalent a few years ago, but still crop up from time to time. They can be executed in a number of ways, but the simplest method is for a malicious insider who has access to the DNS records at an ISP or large company to go in and change the record to point to the desired malicious site.
+
+Brazil has nearly 76 million Internet users, fifth most in the world right now.

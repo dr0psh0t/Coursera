@@ -1,0 +1,15 @@
+Supplemental Reading for RFCs and Standards
+In the video about non-routable address space, we introduced the concept of an RFC, orRequest for Comments. RFCs started as a way for academics to discuss how their computers might talk to each other.
+
+An RFC would be published, people would leave comments, eventually a consensus would be formed, and a new standard would be developed.
+
+Over many decades, RFCs have come to belong to the IETF, orInternet Engineering Task Force, which is an open community charged with developing and maintaining the standards required for the Internet to continue to operate.
+
+You can browse the impressively large collections of RFCs here.
+
+By the way, RFCs have a long history of April Fool’s Day jokes. My personal favorites are RFC 1149 and RFC 3514, both of which might be funnier once we’ve tackled the next module.
+
+https://www.ietf.org/standards/rfcs/
+https://en.wikipedia.org/wiki/April_Fools%27_Day_Request_for_Comments
+https://tools.ietf.org/html/rfc1149
+https://www.ietf.org/rfc/rfc3514.txt

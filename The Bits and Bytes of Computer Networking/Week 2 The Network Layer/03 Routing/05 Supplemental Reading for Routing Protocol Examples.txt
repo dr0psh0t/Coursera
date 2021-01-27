@@ -1,0 +1,16 @@
+Supplemental Reading for Routing Protocol Examples
+
+We’ve covered a few different routing protocol types, but we haven’t discussed the details of how the actual implementation of these protocols might matter.
+Many network protocols are implemented based on specifications published by the Internet Engineering Task Force (IETF). We'll cover this is more detail in a future lesson!
+The most common distance vector protocols are RIP, or Routing Information Protocol (IETF RFC2453), and EIGRP, or Enhanced Interior Gateway Routing Protocol (Cisco documentation). The most common link state protocol is OSPF, or Open Shortest Path First (IETF RFC2328).
+In terms of exterior gateway protocols, there is only one in use today. The entire Internet needs to agree on how to exchange this sort of information, so a single standard has emerged. This standard is known as BGP, or Border Gateway Protocol (IETF RFC4271).
+
+https://www.ietf.org/
+https://en.wikipedia.org/wiki/Routing_Information_Protocol
+https://tools.ietf.org/html/rfc2453
+https://en.wikipedia.org/wiki/Enhanced_Interior_Gateway_Routing_Protocol
+https://www.cisco.com/c/en/us/support/docs/ip/enhanced-interior-gateway-routing-protocol-eigrp/16406-eigrp-toc.html
+https://en.wikipedia.org/wiki/Open_Shortest_Path_First
+https://tools.ietf.org/html/rfc2328
+https://en.wikipedia.org/wiki/Border_Gateway_Protocol
+https://tools.ietf.org/html/rfc4271

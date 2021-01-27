@@ -1,0 +1,45 @@
+Greetings!
+
+There are two rules for the shortening of IPv6 address
+
+Rule 1: You can remove any leading zero from 16-bit address in IPv6.
+
+Leading zeros in any 16-bit field can be dropped, but each block you do this with must have at least one number remaining. If the block is all zeroes, you have to leave one zero.
+
+Example:
+
+Original format: 1234:1230:1234:0000:0001:1234:1234:1234
+
+Leading zero compression: 1234:1230:1234:0:1:1234:1234:1234
+
+Rule 2: If you have consecutive fields of zeroes, they can be expressed with two colons.
+
+When we have consecutive blocks of zeros then those blocks can be replaced with double colon (::). This rule is applied only once for any specific address.
+
+Example:
+
+Original format: 1234:0000:0000:0000:1234:1234:1234:1234
+
+Step 1:Applying Rule 1: 1234:0:0:0:1234:1234:1234:1234
+
+Step 2: Applying Rule 2: 1234::1234:1234:1234:1234
+
+We can have addresses where we may need to apply both the rules to shorten the IPv6.
+
+Example:
+
+Original format: 1234:1234:0000:0000:0000:0123:0000:1234
+
+Using IPv6 compression: 1234:1234::123:0:1234
+
+Recap:
+
+Zero compression: Allowed only once per address.
+
+Leading zero compression: Perform as often as you like in an address.
+
+Hope this will help you.
+
+Thanks,
+
+Sarang

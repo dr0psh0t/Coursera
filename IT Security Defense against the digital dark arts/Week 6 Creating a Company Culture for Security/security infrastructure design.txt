@@ -1,0 +1,32 @@
+1. Authentication system
+Require at least 8-character long password that contains numbers, special characters, upper case and lower case characters for all employee and user accounts. Reject registration of employee or user accounts if password strength isn't followed. Implement password rotation on a certain time interval. Enable multifactor authentication for all employee and user accounts when logging in and in critical actions like online payment or processes that can change any data of the online retail. The business could use One Time Password using counter-based token which a majority could agree on implementing because of its simplicity. For a more high-level authentication, the organization should implement biometric authentication or Universal 2nd Factor authentication to customers initiating payments and to any authorized personnel in the company tasked with protecting very sensitive company and customer information.
+
+2. External website security
+Implement https for external website. Use floodguard services to protect against DOS. Use strong passwords for employee and customers. Enable  authentication system.
+
+3. Internal website security
+Block unidentified devices within the network that can access internal website. Use strong passwords for employees. Enable authentication system.
+
+4. Remote access solution
+Engineers are required to use SSH for remote command line access to servers and internal website by their workstations. disable remote access to servers for non-engineers. Disallow remote access to internal website for non-engineering employees if they are not in the company's internal network.
+
+5. Firewall and basic rules recommendations
+Add inbound rules to network-based firewall to allow incoming traffic access permitted systems. Configure firewall inbound rules to non-engineering employees restricting access to critical and sensitive systems.
+
+6. Wireless security
+Always use WPA2-Enterprise security for Access Points in the company or if the security becomes complicated, WPA2-Personal with AES/CCMP mode is the best alternative. Always disable Wifi Protected Setup in the entire organization.
+
+7. VLAN configuration recommendations
+Configure VLANs for each department.
+
+8. Laptop security configuration
+Require password when logging in. Encrypt hard drive or just folders with company confidential information. Enable firewall critical inbound rules specified by the company. Configure laptops to auto update software patches. Use backup data services sanctioned by the company, protected with password and multifactor authentication.
+
+9. Application policy configuration
+Only support or require the latest version of a piece of software. Disallow file sharing software and pirated softwares. Only use company-sanctioned software. Disallow risky browser extensions.
+
+10. Security and privacy policy recommendations
+Install antimalware software to protect against known threats like viruses, worms, trojans, ransomware, adware etc. Antimalware and operating system should be always updated.
+
+11. Intrusion detection or prevention for systems containing customer data
+Enable monitoring for any attempt of changing customer data. Enable multifactor authentication if customers want to change their data. If authentication fails, the monitoring system should alert the security group, log that action along with any identity of the attacker that will be  traceable like ip address, gps, etc. and suspend updating to those customer data, remove all sessions of the attacker, redirect the page and disable host device from accessing for a certain duration.

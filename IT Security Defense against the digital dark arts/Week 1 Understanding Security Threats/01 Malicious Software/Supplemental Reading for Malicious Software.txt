@@ -1,0 +1,24 @@
+Disgruntled worker 'tried to cripple UBS in protest over $32,000 bonus'
+By Stephen Foley in Newark,
+New Jersey
+Thursday 8 June 2006 00:35 
+
+An employee at the investment banking giant UBS was so angered by his "meagre" annual bonus that he unleashed a computer virus designed to cripple the company, a New Jersey jury has been told.
+
+The 63-year-old former computer programmer Roger Duronio denies planting a so-called "logic bomb" that brought down 2,000 computers across UBS's stockbroking unit Paine Webber and cost the company $3.1m to repair. About 17,000 UBS brokers across the US were unable to trade shares for more than a day, costing the company even more in lost business.
+
+In court yesterday, Mr Duronio's lawyers pointed to a string of holes in IT security at UBS, and suggested that senior executives were aware the security lapses had opened "doors to hackers". Mr Duronio claims that someone else planted the virus.
+
+Earlier this week, UBS made a late attempt to have the case heard in secret, arguing it could expose details of the company's IT systems that would again make it vulnerable to hackers. Their request was turned down by the judge, Joseph Greenaway.
+
+For employees across Wall Street firms, the run-up to the annual bonus round is a time of subtle lobbying, while the actual payouts generate a frenzy of gossip and jealousy. It is a phenomenon that fans out from the ultra-high-paid traders and bankers on Wall Street proper, to branch office employees across the firms.
+
+Mr Duronio was employed as a systems administrator in UBS Paine Webber's Weehawken, New Jersey office in 2002 when he received an annual bonus of $32,000 on top of his salary of $125,000. Federal prosecutors allege he had expected a lump sum of at least $50,000 and became incensed, quitting his job.
+
+Then, on 4 March, UBS brokers at 400 offices around the country found that vital files were being deleted from their system and that attempts at back-ups crashed the company's central servers. The UBS IT team traced the problem to a piece of code known as a logic bomb, and the company was forced to send in a fleet of 200 specialists from IBM.
+
+Mr Duronio is also accused of betting $21,000 against UBS shares in the run-up to the sabotage, although the share price did not in fact move when news of the IT problems leaked out. He is charged with one count of securities fraud, one of computer fraud and two of mail fraud. If convicted, he faces up to 30 years in prison and could be ordered to reimburse his former employer.
+
+His lawyer, Chris Adams, said yesterday that two internal IT audits - one in 2000 and a second in 2002, just weeks before the attack - had identified inadequate controls on who had password access to the main computer system and problems in tracking who was making potentially damaging changes to the system.
+
+The case is expected to last three weeks.

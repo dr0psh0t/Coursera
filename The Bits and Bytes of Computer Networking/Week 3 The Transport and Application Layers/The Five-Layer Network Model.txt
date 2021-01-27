@@ -1,0 +1,35 @@
+What You’ll Do: In your own words, describe what happens at every step of our network model, when a node on one network establishes a TCP connection with a node on another network. You can assume that the two networks are both connected to the same router.
+
+Physical layer
+Data link layer
+Network layer
+Transport layer
+MAC address
+IP address
+TCP port
+Checksum check
+Routing table
+TTL
+
+At Physical layer, the router, the switches of those two networks and the computers connected to a switch have network ports ready to be connected by network cables.
+
+The router then have different network interface for each networks.
+
+A browser in computer on a network 1 request a web page from a computer in network 2, establishing a TCP connection. The network 1 will examine its own subnet and sees that the destination ip of a web server belongs to the network 2 and must send to the gateway of network 1 interface.
+
+If the computer in network 1 doesn't find mac address of the gateway, it will send an ARP request across every node in network 1 for the gateway. A router then receives the ARP request and sends its mac address to the computer in network 1. computer in network 1 now knows the mac address of the router. The computer in network will form an outbound tcp connection. 
+
+TCP connection will form a TC Datagram which contains the Destination port 80 a web server from network 2.
+The TCP segment is now passed along the IP layer of networking stack that constructs an ip header. 
+
+The IP Datagram contains important fields like TTL of 64, Source IP and Destination IP and checksum is calculated. 
+
+Then an Ethernet frame is created containing the Destination Address of the router and Source Address of computer in network 1.
+
+The computer in network 1 will now send the Ethernet frame to the switch which checks the mac address of a router then sends that frame using to the router through a cable that it connects to.
+
+The router now inspects the IP Datagram for its Destination IP Address. The router decrements the TTL by 1(our TTL will be 63 final since it only hops to one router) and calculates new checksum thereby creating a new IP datagram.
+
+The router will construct a new Ethernet frame. It will change its Destination Address to computer in network 2 and the Source Address as its own.
+
+The Ethernet frame will be sent to the switch in network 2. And then to the computer in network 2. Computer in network 2 inspects the Ethernet frame and sees the Destination Address as its own. Then computer in network 2 will inspect the IP datagram and sees Destination IP Address as its own. Then computer in network 2 sees the destination port of 80 in the TCP segement and found its way to the web server running on port 80.

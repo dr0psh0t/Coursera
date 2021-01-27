@@ -1,0 +1,46 @@
+A network segment where only one device can communicate at a time is known as a _____.
+A collision domain is the term used to describe a network segment where collisions may occur -- that is, a network segment where only one device can successfully communicate at a time.
+
+The most common data link layer protocol for wired connections is _____.
+The most common data link layer protocol you'll run into is Ethernet.
+
+When an electrical pulse on one wire is accidentally detected on another nearby wire, this is known as _____.
+Crosstalk is reduced by the way that wires are twisted inside of a cable.
+
+UDP stands for ______.
+User Datagram Protocol is one of the more common transport layer protocols.
+
+What layer in the Transmission Control Protocol/Internet Protocol (TCP/IP) model is responsible for defining a way to interpret signals so network devices can communicate?
+The data link layer is responsible for defining a common way of interpreting signals so network devices can communicate.
+
+Which two protocols work at the transport layer and ensures that data gets to the right applications running on those nodes?
+UDP works at the transport layer and is responsible for ensuring data gets to the right applications. UDP does not provide reliable delivery.
+TCP works at the transport layer and is responsible for ensuring that data gets to the right applications. TCP provides reliable delivery.
+
+A system has defined specifications that describe how signals are sent over connections. Which layer of the Transmission Control Protocol/Internet Protocol (TCP/IP) model provides this function?
+The physical layer represents the physical devices that interconnect computers. This includes the specifications for the networking cables and the connectors that join devices together, along with specifications describing how signals are sent over these connections.
+
+What will allow you to form point-to-point networking connections?
+Cables allow you to form point-to-point networking connections.
+
+A user logs on to a laptop and opens her email. What device will provide emails to the laptop?
+A server is anything that provides data to a client.
+
+What process sends ones and zeroes across network cables?
+Ones and zeroes are sent across network cables through a process called modulation.
+
+Select the device that will have the most network ports.
+A switch will have the most network ports, because its purpose is to connect many devices.
+
+Which layer abstracts away the need for any other layers to care about what hardware is in use? answered physical. wrong
+Not quite. Please review the videos in the "Introduction to Networking" module for a refresher.
+
+What does the letter B represent in a Media Access Control (MAC) address?
+Since we don't have numerals to represent any individual digit larger than 9, hexadecimal numbers employ the letters A, B, C, D, E and F to represent the numbers 10, 11, 12, 13, 14 and 15.
+
+What section in an ethernet frame will you find a Virtual Local Area Network (VLAN) header?
+You may find a VLAN header in the EtherType field. This will indicate that the frame is called a VLAN frame.
+
+Which section in an ethernet frame contains the data from higher layers, such as Internet Protocol (IP) and the transport and application layers?
+The payload contains all of the data from higher layers, such as the IP, transport, and application layers, that's actually being transmitted.
+

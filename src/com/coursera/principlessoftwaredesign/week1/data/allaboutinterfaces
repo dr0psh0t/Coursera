@@ -1,0 +1,34 @@
+public ArrayList<QuakeEntry> filter(ArrayList<QuakeEntry> quakeData, Filter f) {
+	ArrayList<QuakeEntry> answer = new ArrayList<>();
+
+	for (QuakeEntry qe : quakeData) {
+		if (f.satisfies(qe)) {
+			answer.add(qe);
+		}
+	}
+
+	return answer;
+}
+
+Filter f = new MinMagFilter(4.0);
+ArrayList<QuakeEntry> largeQuakes = filter(list, f);
+f = new DistanceFilter(myLoc, 100);
+ArrayList<QuakeEntry> shallowQuakes = filter(list, f);
+
+But how do you make Filter with different .satisfies methods?
+
+public interface Filter {
+	public boolean satisfies(QuakeEntry qe);
+}
+
+public class MinMagFilter implements Filter {
+	private double magMin;
+
+	public MinMagFilter(double min) {
+		magMin = min;
+	}
+
+	public boolean satisfies(QuakeEntry qe) {
+		return qe.getMagnitude() > magMin;
+	}
+}
